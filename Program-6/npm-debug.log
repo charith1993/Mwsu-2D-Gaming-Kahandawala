@@ -1,0 +1,256 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'engine.io',
+1 verbose cli   'express',
+1 verbose cli   'eurica.io' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json eureca_example@1.0.0 No repository field.
+5 warn package.json eureca_example@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'engine.io@^1.6.11', null ]
+8 verbose cache add name=undefined spec="engine.io@^1.6.11" args=["engine.io@^1.6.11",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'engine.io@^1.6.11',
+9 verbose parsed url   path: 'engine.io@^1.6.11',
+9 verbose parsed url   href: 'engine.io@^1.6.11' }
+10 verbose cache add name="engine.io" spec="^1.6.11" args=["engine.io","^1.6.11"]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '^1.6.11',
+11 verbose parsed url   path: '^1.6.11',
+11 verbose parsed url   href: '^1.6.11' }
+12 verbose addNamed [ 'engine.io', '^1.6.11' ]
+13 verbose addNamed [ null, '>=1.6.11-0 <2.0.0-0' ]
+14 verbose cache add [ 'express@^4.14.0', null ]
+15 verbose cache add name=undefined spec="express@^4.14.0" args=["express@^4.14.0",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'express@^4.14.0',
+16 verbose parsed url   path: 'express@^4.14.0',
+16 verbose parsed url   href: 'express@^4.14.0' }
+17 verbose cache add name="express" spec="^4.14.0" args=["express","^4.14.0"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: '^4.14.0',
+18 verbose parsed url   path: '^4.14.0',
+18 verbose parsed url   href: '^4.14.0' }
+19 verbose addNamed [ 'express', '^4.14.0' ]
+20 verbose addNamed [ null, '>=4.14.0-0 <5.0.0-0' ]
+21 verbose cache add [ 'eurica.io', null ]
+22 verbose cache add name=undefined spec="eurica.io" args=["eurica.io",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'eurica.io',
+23 verbose parsed url   path: 'eurica.io',
+23 verbose parsed url   href: 'eurica.io' }
+24 silly lockFile 787a2693-engine-io-1-6-11 engine.io@^1.6.11
+25 verbose lock engine.io@^1.6.11 /root/.npm/787a2693-engine-io-1-6-11.lock
+26 silly lockFile 0350dad9-express-4-14-0 express@^4.14.0
+27 verbose lock express@^4.14.0 /root/.npm/0350dad9-express-4-14-0.lock
+28 silly lockFile cb477954-eurica-io eurica.io
+29 verbose lock eurica.io /root/.npm/cb477954-eurica-io.lock
+30 silly addNameRange { name: 'engine.io',
+30 silly addNameRange   range: '>=1.6.11-0 <2.0.0-0',
+30 silly addNameRange   hasData: false }
+31 silly addNameRange { name: 'express', range: '>=4.14.0-0 <5.0.0-0', hasData: false }
+32 silly lockFile cb477954-eurica-io eurica.io
+33 silly lockFile cb477954-eurica-io eurica.io
+34 verbose addNamed [ 'eurica.io', '' ]
+35 verbose addNamed [ null, '*' ]
+36 silly lockFile 752eb631-eurica-io eurica.io@
+37 verbose lock eurica.io@ /root/.npm/752eb631-eurica-io.lock
+38 silly addNameRange { name: 'eurica.io', range: '*', hasData: false }
+39 verbose url raw engine.io
+40 verbose url resolving [ 'https://registry.npmjs.org/', './engine.io' ]
+41 verbose url resolved https://registry.npmjs.org/engine.io
+42 info trying registry request attempt 1 at 14:56:20
+43 verbose etag "1U83W4J6UC3O7OMC5QPEZ7GB6"
+44 http GET https://registry.npmjs.org/engine.io
+45 verbose url raw express
+46 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+47 verbose url resolved https://registry.npmjs.org/express
+48 info trying registry request attempt 1 at 14:56:20
+49 verbose etag "5ANBLBSEOLHWPT498GNQTYJLZ"
+50 http GET https://registry.npmjs.org/express
+51 verbose url raw eurica.io
+52 verbose url resolving [ 'https://registry.npmjs.org/', './eurica.io' ]
+53 verbose url resolved https://registry.npmjs.org/eurica.io
+54 info trying registry request attempt 1 at 14:56:20
+55 http GET https://registry.npmjs.org/eurica.io
+56 http 304 https://registry.npmjs.org/engine.io
+57 silly registry.get cb [ 304,
+57 silly registry.get   { date: 'Tue, 05 Jul 2016 18:56:20 GMT',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     'cache-control': 'max-age=300',
+57 silly registry.get     etag: '"1U83W4J6UC3O7OMC5QPEZ7GB6"',
+57 silly registry.get     age: '0',
+57 silly registry.get     connection: 'keep-alive',
+57 silly registry.get     'x-served-by': 'cache-iad2125-IAD',
+57 silly registry.get     'x-cache': 'MISS',
+57 silly registry.get     'x-cache-hits': '0',
+57 silly registry.get     'x-timer': 'S1467744980.285092,VS0,VE64',
+57 silly registry.get     vary: 'Accept-Encoding' } ]
+58 verbose etag engine.io from cache
+59 silly addNameRange number 2 { name: 'engine.io',
+59 silly addNameRange   range: '>=1.6.11-0 <2.0.0-0',
+59 silly addNameRange   hasData: true }
+60 silly addNameRange versions [ 'engine.io',
+60 silly addNameRange   [ '0.1.0',
+60 silly addNameRange     '0.1.1',
+60 silly addNameRange     '0.1.2',
+60 silly addNameRange     '0.2.0',
+60 silly addNameRange     '0.2.1',
+60 silly addNameRange     '0.2.2',
+60 silly addNameRange     '0.3.0',
+60 silly addNameRange     '0.3.1',
+60 silly addNameRange     '0.3.2',
+60 silly addNameRange     '0.3.3',
+60 silly addNameRange     '0.3.4',
+60 silly addNameRange     '0.3.5',
+60 silly addNameRange     '0.3.7',
+60 silly addNameRange     '0.3.8',
+60 silly addNameRange     '0.3.9',
+60 silly addNameRange     '0.3.10',
+60 silly addNameRange     '0.4.1',
+60 silly addNameRange     '0.4.2',
+60 silly addNameRange     '0.4.3',
+60 silly addNameRange     '0.5.0',
+60 silly addNameRange     '0.6.0',
+60 silly addNameRange     '0.6.1',
+60 silly addNameRange     '0.6.2',
+60 silly addNameRange     '0.6.3',
+60 silly addNameRange     '0.7.0',
+60 silly addNameRange     '0.7.1',
+60 silly addNameRange     '0.7.2',
+60 silly addNameRange     '0.7.3',
+60 silly addNameRange     '0.7.4',
+60 silly addNameRange     '0.7.5',
+60 silly addNameRange     '0.7.6',
+60 silly addNameRange     '0.7.7',
+60 silly addNameRange     '0.7.8',
+60 silly addNameRange     '0.7.9',
+60 silly addNameRange     '0.7.10',
+60 silly addNameRange     '0.7.11',
+60 silly addNameRange     '0.7.12',
+60 silly addNameRange     '0.7.13',
+60 silly addNameRange     '0.7.14',
+60 silly addNameRange     '0.8.0',
+60 silly addNameRange     '0.8.1',
+60 silly addNameRange     '0.8.2',
+60 silly addNameRange     '0.9.0',
+60 silly addNameRange     '1.0.0',
+60 silly addNameRange     '1.0.1',
+60 silly addNameRange     '1.0.2',
+60 silly addNameRange     '1.0.3',
+60 silly addNameRange     '1.0.4',
+60 silly addNameRange     '1.0.5',
+60 silly addNameRange     '1.1.0',
+60 silly addNameRange     '1.1.1',
+60 silly addNameRange     '1.2.0',
+60 silly addNameRange     '1.2.1',
+60 silly addNameRange     '1.2.2',
+60 silly addNameRange     '1.3.0',
+60 silly addNameRange     '1.3.1',
+60 silly addNameRange     '1.4.0',
+60 silly addNameRange     '1.4.1',
+60 silly addNameRange     '1.4.2',
+60 silly addNameRange     '1.4.3',
+60 silly addNameRange     '1.5.0',
+60 silly addNameRange     '1.5.1',
+60 silly addNameRange     '1.5.2',
+60 silly addNameRange     '1.5.3',
+60 silly addNameRange     '1.5.4',
+60 silly addNameRange     '1.6.0',
+60 silly addNameRange     '1.6.1',
+60 silly addNameRange     '1.6.2',
+60 silly addNameRange     '1.6.3',
+60 silly addNameRange     '1.6.4',
+60 silly addNameRange     '1.6.5',
+60 silly addNameRange     '1.6.6',
+60 silly addNameRange     '1.6.7',
+60 silly addNameRange     '1.6.8',
+60 silly addNameRange     '1.6.9',
+60 silly addNameRange     '1.6.10',
+60 silly addNameRange     '1.6.11' ] ]
+61 verbose addNamed [ 'engine.io', '1.6.11' ]
+62 verbose addNamed [ '1.6.11', '1.6.11' ]
+63 silly lockFile ac30d960-engine-io-1-6-11 engine.io@1.6.11
+64 verbose lock engine.io@1.6.11 /root/.npm/ac30d960-engine-io-1-6-11.lock
+65 silly lockFile ac30d960-engine-io-1-6-11 engine.io@1.6.11
+66 silly lockFile ac30d960-engine-io-1-6-11 engine.io@1.6.11
+67 silly lockFile 787a2693-engine-io-1-6-11 engine.io@^1.6.11
+68 silly lockFile 787a2693-engine-io-1-6-11 engine.io@^1.6.11
+69 http 404 https://registry.npmjs.org/eurica.io
+70 silly registry.get cb [ 404,
+70 silly registry.get   { 'content-type': 'application/json',
+70 silly registry.get     'cache-control': 'max-age=0',
+70 silly registry.get     'content-length': '2',
+70 silly registry.get     'accept-ranges': 'bytes',
+70 silly registry.get     date: 'Tue, 05 Jul 2016 18:56:20 GMT',
+70 silly registry.get     via: '1.1 varnish',
+70 silly registry.get     age: '0',
+70 silly registry.get     connection: 'keep-alive',
+70 silly registry.get     'x-served-by': 'cache-iad2147-IAD',
+70 silly registry.get     'x-cache': 'MISS',
+70 silly registry.get     'x-cache-hits': '0',
+70 silly registry.get     'x-timer': 'S1467744980.297080,VS0,VE93',
+70 silly registry.get     vary: 'Accept-Encoding' } ]
+71 silly addNameRange number 2 { name: 'eurica.io', range: '*', hasData: true }
+72 silly addNameRange versions [ undefined, [] ]
+73 error TypeError: Cannot read property 'latest' of undefined
+73 error     at next (/usr/share/npm/lib/cache.js:687:35)
+73 error     at /usr/share/npm/lib/cache.js:675:5
+73 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+73 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+73 error     at Object.oncomplete (fs.js:107:15)
+74 error If you need help, you may report this log at:
+74 error     <http://github.com/isaacs/npm/issues>
+74 error or email it to:
+74 error     <npm-@googlegroups.com>
+75 error System Linux 3.13.0-83-generic
+76 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save" "engine.io" "express" "eurica.io"
+77 error cwd /var/www/html/Mwsu-2D-Gaming-Kahandawala/Program-6
+78 error node -v v0.10.25
+79 error npm -v 1.3.10
+80 error type non_object_property_load
+81 verbose exit [ 1, true ]
